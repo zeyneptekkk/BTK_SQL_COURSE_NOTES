@@ -1,0 +1,16 @@
+/*SELECT
+KOLON1,KOLON2,KOLON3,...
+FROM TABLOADI
+WHERE ÞARTLAR
+*/
+
+--etrade database ni kullan
+USE ETRADE
+
+--tüm tabloyu getir
+SELECT*FROM CUSTOMERS
+
+---belirli sutünlarý getir
+SELECT CUSTOMERNAME ,CITY FROM CUSTOMERS
+
+
